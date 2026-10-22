@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ffedf3">
+<title>For My Mannu 💌</title>
+<style>
+:root{--pink:#ff5d91;--deep:#9f174d;--cream:#fff7fa}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Georgia,'Times New Roman',serif;color:#742044;background:radial-gradient(circle at top,#fff 0,#ffe7ef 45%,#ffd2e1 100%);overflow-x:hidden}
+.hearts span{position:fixed;bottom:-40px;left:var(--x);font-size:var(--s);opacity:.45;animation:float var(--d) linear infinite;animation-delay:var(--delay);pointer-events:none;z-index:0}
+@keyframes float{to{transform:translateY(-115vh) rotate(25deg);opacity:0}}
+main{position:relative;z-index:1;width:min(92%,520px);margin:0 auto;padding:34px 0 44px;text-align:center}
+.eyebrow{font:700 11px Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;color:#c13a70}
+h1{font-size:clamp(38px,10vw,58px);line-height:1.02;margin:12px 0;color:#a51e55}
+.subtitle{font-size:17px;line-height:1.6;margin:0 auto 20px;max-width:360px}
+.envelope{font-size:78px;filter:drop-shadow(0 8px 10px #e78aaa66);margin:8px 0 6px;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.06)}}
+.note{background:#ffffffb8;border:1px solid #ffc1d5;border-radius:22px;padding:18px 16px;box-shadow:0 12px 30px #bd37631a;margin:20px 0}
+.note strong{color:#a51e55}
+.letters{display:grid;gap:12px;margin-top:18px}
+.letter{border:1px solid #f6a9c5;border-radius:17px;background:#fffafc;box-shadow:0 5px 15px #c44e7410;overflow:hidden;text-align:left}
+.letter button{width:100%;display:flex;align-items:center;gap:12px;border:0;background:transparent;padding:16px;color:#8d1948;text-align:left;font-size:16px;font-weight:bold;cursor:pointer}
+.letter button .arrow{margin-left:auto;transition:transform .2s}
+.letter.open button .arrow{transform:rotate(180deg)}
+.message{display:none;padding:0 17px 18px;font-size:16px;line-height:1.75;color:#69203e;white-space:pre-line}
+.letter.open .message{display:block;animation:reveal .25s ease}
+@keyframes reveal{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:none}}
+.final{margin-top:25px;background:linear-gradient(145deg,#a51e55,#e64d83);color:white;border-radius:22px;padding:22px 18px;box-shadow:0 12px 26px #b42b5c30}
+.final h2{font-size:26px;margin:0 0 10px}
+.final p{line-height:1.7;margin:8px 0}
+.signature{font-size:22px;font-weight:bold;margin-top:14px}
+.small{font:12px Arial,sans-serif;letter-spacing:.5px;opacity:.75;margin-top:22px}
+button:focus-visible{outline:3px solid #d92e70;outline-offset:3px}
+</style>
+</head>
+<body>
+<div class="hearts" aria-hidden="true">
+<span style="--x:4%;--s:22px;--d:13s;--delay:-2s">♥</span><span style="--x:17%;--s:16px;--d:16s;--delay:-8s">♡</span>
+<span style="--x:31%;--s:26px;--d:14s;--delay:-5s">♥</span><span style="--x:47%;--s:18px;--d:18s;--delay:-10s">♡</span>
+<span style="--x:63%;--s:24px;--d:15s;--delay:-4s">♥</span><span style="--x:79%;--s:17px;--d:17s;--delay:-11s">♡</span>
+<span style="--x:92%;--s:25px;--d:14s;--delay:-7s">♥</span>
+</div>
+<main>
+  <div class="eyebrow">A little piece of my heart</div>
+  <div class="envelope" aria-hidden="true">💌</div>
+  <h1>For My Mannu</h1>
+  <p class="subtitle">Even when miles keep us apart, my heart still finds its way to you. ❤️</p>
+  <div class="note">Hi meri <strong>Mannu</strong> 🥹💕<br>Open these little letters whenever you need a hug from your Mehul.</div>
+  <section class="letters" aria-label="Love letters">
+    <article class="letter"><button aria-expanded="false"><span>🥹</span> When You Miss Me <span class="arrow">⌄</span></button><div class="message">Meri Mannu, kaash abhi main tumhare paas hota, tumhe apni baahon mein lekar kehta ki sab theek hai. Door zaroor hoon, par mera dil hamesha tumhare paas hai. ❤️
+
+Jab bhi meri yaad aaye, bas yaad rakhna: distance sirf humare beech hai, humare pyaar ke beech nahi.</div></article>
+    <article class="letter"><button aria-expanded="false"><span>🫂</span> When You Need a Hug <span class="arrow">⌄</span></button><div class="message">Meri jaan, apni aankhein band karna aur imagine karna ki main tumhe zor se hug kar raha hoon. 🤗
+
+Kaash main abhi tumhara haath pakad sakta aur tumhe bata sakta ki tum mere liye kitni special ho. Ye virtual hug meri taraf se—tight wala! 💗</div></article>
+    <article class="letter"><button aria-expanded="false"><span>💗</span> When You Feel Sad <span class="arrow">⌄</span></button><div class="message">Mannu, tumhe har waqt strong banne ki zaroorat nahi hai. Kabhi udaas ho jao toh apne dil ko thoda rest dena.
+
+Kaash main tumhare aansu poch sakta aur tumhe muskura sakta. Tumhari khushi mere liye bahut precious hai. Main chahta hoon tum hamesha pyaar aur sukoon mehsoos karo. 🥹❤️</div></article>
+    <article class="letter"><button aria-expanded="false"><span>🎂</span> Your Birthday Promise <span class="arrow">⌄</span></button><div class="message">Happy Birthday, meri jaan! 🎂❤️
+
+Meri wish hai ki tumhari zindagi khushiyon, sukoon aur pyaar se bhari rahe. Is birthday par main tumhare paas nahi hoon, lekin meri saari duayein aur mera pyaar tumhare saath hain.
+
+Ek din tumhara birthday tumhare saath celebrate karun, tumhe hug karun aur tumhari smile apni aankhon se dekhun—ye meri dil se wish hai. 🥹💖</div></article>
+  </section>
+  <div class="final">
+    <h2>One last thing, my love… ❤️</h2>
+    <p>Chahe kitne bhi miles humare beech hon, tum meri life ki ek bahut special person ho. Thank you for being you, Mannu.</p>
+    <p>Happy Birthday, meri jaan. Aaj bhi, kal bhi, aur har naye din mein—main tumhare liye khushiyan hi wish karta hoon. 💋</p>
+    <div class="signature">Forever yours,<br>Mehul ❤️</div>
+  </div>
+  <div class="small">MADE WITH LOVE • JUST FOR MANNU 💗</div>
+</main>
+<script>
+document.querySelectorAll('.letter button').forEach(button=>{
+  button.addEventListener('click',()=>{
+    const card=button.closest('.letter');
+    const open=!card.classList.contains('open');
+    card.classList.toggle('open',open);
+    button.setAttribute('aria-expanded',String(open));
+  });
+});
+</script>
+</body>
+</html>
